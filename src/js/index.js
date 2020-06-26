@@ -36,3 +36,12 @@ elements.searchForm.addEventListener('submit', e => {
     e.preventDefault();
     controlSearch();
 });
+
+/*
+SEARCH CONTROLLER
+*/
+
+const r = new Recipe(47025);
+r.getRecipe();
+
+console.log(r);
