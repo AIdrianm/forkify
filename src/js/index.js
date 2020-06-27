@@ -37,11 +37,28 @@ elements.searchForm.addEventListener('submit', e => {
     controlSearch();
 });
 
+
 /*
 SEARCH CONTROLLER
 */
 
-const r = new Recipe(47025);
-r.getRecipe();
+const constrolRecipe = () => {
+    const id = window.location.hash.replace('#', '');
 
-console.log(r);
+    if (id) {
+        // Prepare UI for changes 
+
+        // Create new recipe object
+        state.recipe = Recipe(id)
+
+        // Get recipe data  
+
+        // Calculate servings and time
+
+        // Render recipe
+
+    }
+};
+
+
+window.addEventListener('hashchange', controlRecipe);
