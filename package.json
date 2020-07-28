@@ -21,6 +21,9 @@
     "babel-loader": "^7.1.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "fractional": "^1.0.0"
+    "fractional": "^1.0.0",
+    "id": "0.0.0",
+    "uniqid": "^5.2.0",
+    "unique": "0.0.1"
   }
 }
